@@ -1,7 +1,6 @@
 import emailIcon from '../assets/email_icon.png';
 import githubIcon from '../assets/github_icon.png';
 import linkedinIcon from '../assets/linkedin_icon.png';
-import twitterIcon from '../assets/twitter_icon.png';
 
 const SOCIAL_PROFILES = [
   {
@@ -18,11 +17,6 @@ const SOCIAL_PROFILES = [
     id: 3,
     link: 'https://linkedin.com/in/neil-taylor-kleynhans',
     image: linkedinIcon
-  },
-  {
-    id: 4,
-    link: 'https://twitter.com',
-    image: twitterIcon
   },
 ];
 
