@@ -58,6 +58,28 @@ h1, h2, h3, h4, h5 {
 }
 @font-face {
   font-family: robotoCondensed;
+  src: url(roboto-condensed.light.e46d4fda.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: economicaBold;
+  src: url(economica-bold.20c79ac9.ttf);
+  font-weight: 800;
+}
+
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: 'robotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'economicaBold';
+}
+@font-face {
+  font-family: robotoCondensed;
   src: url(roboto-condensed.light.6709adf4.ttf);
   font-weight: 800;
 }
